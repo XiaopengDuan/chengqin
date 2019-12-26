@@ -1,0 +1,35 @@
+.login{
+    width: 100vw;
+    height: 100vh;
+    background: url('../img/login.jpg') no-repeat;
+    background-size: 100%;
+  }
+  .top-l, .top-r, .bottom-l, .bottom-r{
+    width: 0.1rem;
+    height: 0.1rem;
+    position: absolute;
+  }
+  .top-l{
+    border-left: 1px #00a4fb solid;
+    border-top: 1px #00a4fb solid;
+    top: -1px;
+    left: -1px;
+  }
+  .top-r{
+    border-right: 1px #00a4fb solid;
+    border-top: 1px #00a4fb solid;
+    top: -1px;
+    right: -1px;
+  }
+  .bottom-l{
+    border-left: 1px #00a4fb solid;
+    border-bottom: 1px #00a4fb solid;
+    bottom: -1px;
+    left: -1px;
+  }
+  .bottom-r{
+    border-right: 1px #00a4fb solid;
+    border-bottom: 1px #00a4fb solid;
+    bottom: -1px;
+    right: -1px;
+  }

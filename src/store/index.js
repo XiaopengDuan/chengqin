@@ -1,0 +1,15 @@
+import Vue from 'vue'
+import Vuex from 'vuex'
+import user from '@/store/modules/user'
+import getters from '@/store/getters'
+
+Vue.use(Vuex)
+const modules = {
+  user
+}
+const store = new Vuex.Store({
+  modules,
+  getters
+})
+
+export default store
